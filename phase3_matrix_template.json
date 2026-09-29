@@ -1,0 +1,266 @@
+{
+  "EndUserNotifications": {
+    "configured": true,
+    "enabled": true
+  },
+  "UnknownDetectionRelatedExecutables": {
+    "configured": false,
+    "enabled": false
+  },
+  "UnknownExecutables": {
+    "configured": false,
+    "enabled": false
+  },
+  "SensorTamperingProtection": {
+    "configured": true,
+    "enabled": true
+  },
+  "AdditionalUserModeData": {
+    "configured": true,
+    "enabled": true
+  },
+  "InterpreterProtection": {
+    "configured": true,
+    "enabled": true
+  },
+  "EngineProtectionV2": {
+    "configured": true,
+    "enabled": true
+  },
+  "ScriptBasedExecutionMonitoring": {
+    "configured": true,
+    "enabled": true
+  },
+  "HTTPDetections": {
+    "configured": true,
+    "enabled": true
+  },
+  "RedactHTTPDetectionDetails": {
+    "configured": true,
+    "enabled": true
+  },
+  "HardwareEnhancedExploitDetection": {
+    "configured": true,
+    "enabled": true
+  },
+  "EnhancedExploitationVisibility": {
+    "configured": true,
+    "enabled": true
+  },
+  "ExtendedUserModeDataSlider": {
+    "detection": "MODERATE",
+    "prevention": "DISABLED"
+  },
+  "DLLLoadVisibility": {
+    "configured": true,
+    "enabled": true
+  },
+  "WSL2Visibility": {
+    "configured": true,
+    "enabled": true
+  },
+  "MemoryScan": {
+    "configured": true,
+    "enabled": true
+  },
+  "CPUMemoryScan": {
+    "configured": true,
+    "enabled": true
+  },
+  "FirmwareAnalysisExtraction": {
+    "configured": true,
+    "enabled": true
+  },
+  "CloudAntiMalware": {
+    "detection": "AGGRESSIVE",
+    "prevention": "AGGRESSIVE"
+  },
+  "AdwarePUP": {
+    "detection": "AGGRESSIVE",
+    "prevention": "AGGRESSIVE"
+  },
+  "OnSensorMLSlider": {
+    "detection": "AGGRESSIVE",
+    "prevention": "AGGRESSIVE"
+  },
+  "ML Large File Handling": {
+    "configured": true,
+    "enabled": true
+  },
+  "OnSensorMLSliderForSensorEndUserScans": {
+    "detection": "AGGRESSIVE",
+    "prevention": "AGGRESSIVE"
+  },
+  "OnSensorMLSliderForCloudEndUserScans": {
+    "detection": "AGGRESSIVE",
+    "prevention": "AGGRESSIVE"
+  },
+  "CloudMLSliderForPupAdwareCloudEndUserScans": {
+    "detection": "AGGRESSIVE",
+    "prevention": "AGGRESSIVE"
+  },
+  "USBInsertionTriggeredScan": {
+    "configured": true,
+    "enabled": true
+  },
+  "DetectOnWrite": {
+    "configured": true,
+    "enabled": true
+  },
+  "QuarantineOnWrite": {
+    "configured": true,
+    "enabled": true
+  },
+  "DetectPackageOnWrite": {
+    "configured": false,
+    "enabled": false
+  },
+  "QuarantinePackageOnWrite": {
+    "configured": false,
+    "enabled": false
+  },
+  "OnWriteScriptFileVisibility": {
+    "configured": true,
+    "enabled": true
+  },
+  "NextGenAV": {
+    "configured": true,
+    "enabled": true
+  },
+  "NextGenAVQuarantineOnRemovableMedia": {
+    "configured": true,
+    "enabled": true
+  },
+  "CloudAntiMalwareForMicrosoftOfficeFiles": {
+    "detection": "AGGRESSIVE",
+    "prevention": "AGGRESSIVE"
+  },
+  "MicrosoftOfficeFileSuspiciousMacroRemoval": {
+    "configured": false,
+    "enabled": false
+  },
+  "CustomBlacklisting": {
+    "configured": true,
+    "enabled": true
+  },
+  "PreventSuspiciousProcesses": {
+    "configured": true,
+    "enabled": true
+  },
+  "SuspiciousRegistryOperations": {
+    "configured": true,
+    "enabled": true
+  },
+  "BootConfigurationDatabaseProtection": {
+    "configured": true,
+    "enabled": true
+  },
+  "FileSystemContainmentEnabled": {
+    "configured": true,
+    "enabled": true
+  },
+  "MaliciousPowershell": {
+    "configured": true,
+    "enabled": true
+  },
+  "IntelPrevention": {
+    "configured": true,
+    "enabled": true
+  },
+  "SuspiciousKernelDrivers": {
+    "configured": true,
+    "enabled": true
+  },
+  "VulnerableDriverProtection": {
+    "configured": true,
+    "enabled": true
+  },
+  "ForceASLR": {
+    "configured": true,
+    "enabled": true
+  },
+  "ForceDEP": {
+    "configured": false,
+    "enabled": false
+  },
+  "HeapSprayPreallocation": {
+    "configured": true,
+    "enabled": true
+  },
+  "NullPageAllocation": {
+    "configured": true,
+    "enabled": true
+  },
+  "SEHOverwriteProtection": {
+    "configured": true,
+    "enabled": true
+  },
+  "BackupDeletion": {
+    "configured": true,
+    "enabled": true
+  },
+  "Cryptowall": {
+    "configured": true,
+    "enabled": true
+  },
+  "FileEncryption": {
+    "configured": true,
+    "enabled": true
+  },
+  "Locky": {
+    "configured": true,
+    "enabled": true
+  },
+  "FileSystemAccess": {
+    "configured": true,
+    "enabled": true
+  },
+  "VolumeShadowCopyAudit": {
+    "configured": true,
+    "enabled": true
+  },
+  "VolumeShadowCopyProtect": {
+    "configured": true,
+    "enabled": true
+  },
+  "ApplicationExploitationActivity": {
+    "configured": true,
+    "enabled": true
+  },
+  "ChopperWebshell": {
+    "configured": true,
+    "enabled": true
+  },
+  "DriveByDownload": {
+    "configured": true,
+    "enabled": true
+  },
+  "ProcessHollowing": {
+    "configured": true,
+    "enabled": true
+  },
+  "JavaScriptViaRundll32": {
+    "configured": true,
+    "enabled": true
+  },
+  "WindowsLogonBypassStickyKeys": {
+    "configured": true,
+    "enabled": true
+  },
+  "CredentialDumping": {
+    "configured": true,
+    "enabled": true
+  },
+  "AutomatedRemediation": {
+    "configured": true,
+    "enabled": true
+  },
+  "CloudBasedAnomalousProcessExecution": {
+    "detection": "MODERATE",
+    "prevention": "DISABLED"
+  },
+  "RetrospectiveDetections": {
+    "configured": true,
+    "enabled": true
+  }
+}
